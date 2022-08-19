@@ -1,0 +1,73 @@
+main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100vw;
+
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  transition: 0.2s;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main > * {
+  scroll-snap-align: start;
+  padding: 48px 200px;
+}
+
+main textarea {
+  font-family: Chivo, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #6b6b6b;
+
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+
+  width: 100%;
+  padding: 8px 16px;
+
+  resize: none;
+}
+
+main ::placeholder {
+  opacity: 0.6;
+}
+
+*[class$="-col"] {
+  display: grid;
+  column-gap: 24px;
+}
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+*[id^="content-page-"] > *,
+*[class$="-col"] > * > * {
+  margin: 0 0 16px;
+}
+
+*[id^="content-page-"] > img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+*[id^="content-page-"] table {
+  width: 100%;
+}
+
+*[id^="content-page-"] table td {
+  text-align: center;
+}

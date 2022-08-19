@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Inter:wght@400;700&display=swap");
+
+@import "./progress.css";
+@import "./main-content.css";
+@import "./footer.css";
+
+:root {
+  --gdn-blue: #1c4480;
+  --dd: #5ebc91;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: Chivo, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 24px 64px;
+}
+
+.btn {
+  border-radius: 2px;
+
+  border: 1px solid var(--gdn-blue);
+  background-color: var(--gdn-blue);
+  color: white;
+
+  height: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  padding: 16px 40px;
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn.small {
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.btn.transparent {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: var(--gdn-blue);
+}
+
+.anchor-btn {
+  display: inline-block;
+}
+
+.anchor-btn > button {
+  border: none;
+  padding: 16px 24px;
+  background-color: #1c4480;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.anchor-btn > button img {
+  margin: 0 0 0 8px;
+  width: 16px;
+  height: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 24px;
+}

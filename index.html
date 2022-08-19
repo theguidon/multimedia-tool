@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./images/logo_blue.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>The GUIDON Main: Multimedia Tool</title>
+    <meta
+      name="description"
+      content="Tool for adding rows in the Multimedia database"
+    />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The GUIDON Main: Multimedia Tool" />
+    <meta
+      property="og:description"
+      content="Tool for adding rows in the Multimedia database"
+    />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@nammeattacks" />
+    <meta name="twitter:title" content="The GUIDON Main: Multimedia Tool" />
+    <meta
+      name="twitter:description"
+      content="Tool for adding rows in the Multimedia database"
+    />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:image:alt" content="" />
+    <meta name="twitter:url" content="" />
+
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <div class="progress-container">
+      <a href="#content-page-1">
+        <div id="dot-1" class="dot active"></div>
+        <p>Intro</p>
+      </a>
+      <a href="#content-page-2">
+        <div id="dot-2" class="dot"></div>
+        <p>Step 1</p>
+      </a>
+      <a href="#content-page-3">
+        <div id="dot-3" class="dot"></div>
+        <p>Step 2</p>
+      </a>
+      <a href="#content-page-4">
+        <div id="dot-4" class="dot small"></div>
+        <p>Step 2.1</p>
+      </a>
+      <a href="#content-page-5">
+        <div id="dot-5" class="dot small"></div>
+        <p>Step 2.2</p>
+      </a>
+      <a href="#content-page-6">
+        <div id="dot-6" class="dot"></div>
+        <p>Step 3</p>
+      </a>
+      <a href="#content-page-7">
+        <div id="dot-7" class="dot"></div>
+        <p>Step 4</p>
+      </a>
+      <a href="#content-page-8">
+        <div id="dot-8" class="dot small"></div>
+        <p>Step 4.1</p>
+      </a>
+      <a href="#content-page-9">
+        <div id="dot-9" class="dot small"></div>
+        <p>Step 4.2</p>
+      </a>
+      <a href="#content-page-10">
+        <div id="dot-10" class="dot"></div>
+        <p>Step 5</p>
+      </a>
+      <a href="#content-page-11">
+        <div id="dot-11" class="dot"></div>
+        <p>Step 6</p>
+      </a>
+      <div id="line-1" class="line"></div>
+      <div id="line-2" class="line"></div>
+      <div id="line-3" class="line"></div>
+      <div id="line-4" class="line"></div>
+      <div id="line-5" class="line"></div>
+      <div id="line-6" class="line"></div>
+      <div id="line-7" class="line"></div>
+      <div id="line-8" class="line"></div>
+      <div id="line-9" class="line"></div>
+      <div id="line-10" class="line"></div>
+    </div>
+
+    <main id="main">
+      <div id="content-page-1">
+        <h1>Multimedia Releases</h1>
+        <p>
+          Multimedia releases refer to those that are created by the Design
+          Cluster staffs as well as the Broadcast News staff. Since these are
+          not posted on WordPress (i.e., they are directly posted on the
+          publication's social media platforms), we do not have an easy way of
+          retrieving these multimedia releases.
+        </p>
+        <p>
+          This tool should help in generating the required information to add to
+          the main website.
+        </p>
+        <p>
+          Despite being part of the Design Cluster, Interactive Articles
+          released by the Digital Development staff should not be included in
+          the database.
+        </p>
+        <p>
+          Thus, this tool will only be applicable for videos, albums
+          (coverages), photosets, photoessays, podcast episodes, editorial
+          cartoons, comics, and graphic poster releases.
+        </p>
+      </div>
+
+      <div id="content-page-2">
+        <h2>Step 1: Check blasterfile</h2>
+        <p>
+          The assigned Social Media staffer shall check whether the information
+          in the Social Media Blasterfile are final or are EIC closed. These
+          include media, titles, blurbs, and more.
+        </p>
+      </div>
+
+      <div id="content-page-3">
+        <h2>Step 2: Add initial data</h2>
+        <p>
+          Open the Multimedia database spreadsheet on a new tab. Please contact
+          the Digital Development Editors if you cannot access the spreadsheet.
+        </p>
+        <a
+          href="https://docs.google.com/spreadsheets/d/1CIAUF7T9EgJuemjkwWrgvPLY5YEQ4GYsare86ILvUdc/edit?usp=sharing"
+          target="_blank"
+          class="anchor-btn"
+        >
+          <button>
+            Open Multimedia Database Spreadsheet
+            <img src="./images/external.svg" />
+          </button>
+        </a>
+      </div>
+
+      <div id="content-page-4">
+        <h2>Step 2.1: Add date, type, and staffs columns</h2>
+
+        <img src="./images/4-0.png" style="max-width: 400px" />
+        <p>
+          The <i>month</i>, <i>day</i>, and <i>year</i> columns should be in
+          number form (e.g., 1 instead of January). The full year number should
+          be used (i.e., 2022 instead of 22).
+        </p>
+        <p>
+          The <i>type</i> column signifies what type of article/release it is.
+          These are the only accepted values:
+        </p>
+        <table>
+          <tr>
+            <th>Video Production</th>
+            <th>Photos</th>
+            <th>Broadcast News</th>
+            <th>Graphic Design</th>
+          </tr>
+          <tr>
+            <td rowspan="3">video</td>
+            <td>album</td>
+            <td rowspan="3">podcast</td>
+            <td>comic</td>
+          </tr>
+          <tr>
+            <td>photoessay</td>
+            <td>edcartoon</td>
+          </tr>
+          <tr>
+            <td>photoset</td>
+            <td>graphic</td>
+          </tr>
+        </table>
+        <p>
+          The <i>staffs</i> column should contain all the staffs who are
+          involved with the article/release. Please separate staffs using
+          commas. There is no need to add conjunctions such as "and" as these
+          will not look nice on the website.
+        </p>
+        <p>
+          Please also note these last two columns are
+          <strong>case-sensitive</strong>.
+        </p>
+      </div>
+
+      <div id="content-page-5">
+        <h2>Step 2.2: Add title, blurb, and credits_byline columns</h2>
+
+        <img src="./images/5-0.png" />
+        <p>
+          These three can directly be pasted from the Social Media blasterfile
+          but please remove any notes such as [FB/IG] or [Interview].
+        </p>
+        <p>
+          Use only a single line break (Alt+Enter) to separate paragraphs,
+          especially for the blurb.
+        </p>
+        <p>
+          Editor's notes can be added in the blurb column. Other credits such as
+          "Some individuals wish to be anonymous" can be added to the
+          credits_byline column.
+        </p>
+      </div>
+
+      <div id="content-page-6">
+        <h2>Step 3: Blasting</h2>
+
+        <p>
+          The assigned Social Media Manager or Staffer shall proceed with the
+          scheduled blast. Note that other Social Media processes such as the
+          creation of tgdn.co links and post-processing are already omitted in
+          this guide.
+        </p>
+      </div>
+
+      <div id="content-page-7">
+        <h2>Step 4: Add last set of data</h2>
+
+        <img src="./images/7-0.png" style="max-width: 600px" />
+        <p>
+          The remaining columns can only be added after the scheduled blast.
+        </p>
+        <p>
+          The permalink for the <i>link</i> column can be copied directly from
+          the platform that it was posted on. These are usually generated by the
+          "Share Post" or "Copy Link" button on Social Media.
+        </p>
+        <img src="./images/7-1.png" style="max-width: 600px" />
+      </div>
+
+      <div id="content-page-8">
+        <h2>Step 4.1: Add thumbnail_url column</h2>
+
+        <p>
+          First share the image on Google Drive. Set it to
+          <strong>Anyone with the link can view</strong>.
+        </p>
+        <img src="./images/8-0.png" style="max-width: 400px" />
+        <p>
+          After doing so, copy the link by clicking the
+          <strong>Copy link</strong> button on the bottom-left corner. You may
+          paste it down below, then click the
+          <strong>Generate Link</strong> button to format the url.
+        </p>
+
+        <textarea
+          id="page-8-thumbnail-raw"
+          rows="1"
+          placeholder="https://drive.google.com/file/d/1ppykEB8HtdI40bgsG0jw6SsElmsXhEvl/view?usp=sharing"
+        ></textarea>
+        <button class="btn small" onclick="generate_thumbnail_url()">
+          Generate Thumbnail URL
+        </button>
+        <textarea id="page-8-thumbnail-edited" rows="1" readonly></textarea>
+        <p>
+          If the image down below loads, then the generated URL is working. You
+          may now paste the generated URL into the
+          <i>thumbnail_url</i> column.
+        </p>
+        <img
+          id="page-8-thumbnail-preview"
+          src=""
+          alt="Preview"
+          style="max-width: 400px"
+        />
+      </div>
+
+      <div id="content-page-9">
+        <h2>Step 4.2: Add embed_url column</h2>
+        <p>
+          This only applies to videos and podcast episodes. You may leave this
+          column blank for Photos and GD releases.
+        </p>
+        <h3>For Facebook Videos</h3>
+
+        <p>
+          Open the video on Facebook and click the
+          <strong>Embed</strong> button.
+        </p>
+        <img src="./images/9-1-0.png" style="max-width: 600px" />
+        <img src="./images/9-1-1.png" style="max-width: 400px" />
+        <p>
+          Click the <strong>Copy Code</strong> button and paste it down below.
+        </p>
+
+        <textarea id="page-9-fb-raw" rows="1"></textarea>
+        <button class="btn small" onclick="generate_fb_url()">
+          Generate Facebook Embed URL
+        </button>
+        <textarea id="page-9-fb-edited" rows="1" readonly></textarea>
+        <p>
+          If the embedded video down below loads, then the generated URL is
+          working. You may now paste the generated URL into the
+          <i>embed_url</i> column.
+        </p>
+        <iframe id="page-9-fb-preview" src="" frameborder="0"></iframe>
+
+        <h3>For YouTube Videos</h3>
+
+        <p>
+          Open the video on YouTube. Click the <strong>Share</strong> button
+          then click the <strong>Embed</strong> button.
+        </p>
+        <img src="./images/9-2-1.png" style="max-width: 400px" />
+        <p>
+          Click the <strong>Copy</strong> button on the bottom-right corner
+          without clicking anything else and paste it down below.
+        </p>
+        <img src="./images/9-2-2.png" style="max-width: 600px" />
+
+        <textarea id="page-9-yt-raw" rows="1"></textarea>
+        <button class="btn small" onclick="generate_yt_url()">
+          Generate YouTube Embed URL
+        </button>
+        <textarea id="page-9-yt-edited" rows="1" readonly></textarea>
+        <p>
+          If the embedded video down below loads, then the generated URL is
+          working. You may now paste the generated URL into the
+          <i>embed_url</i> column.
+        </p>
+        <iframe id="page-9-yt-preview" src="" frameborder="0"></iframe>
+
+        <h3>For Spotify Podcast Episodes</h3>
+
+        <p>
+          Open the episode on Spotify. Click the
+          <strong>Embed episode</strong> button.
+        </p>
+        <img src="./images/9-3-1.png" style="max-width: 400px" />
+        <p>
+          Click the <strong>Copy</strong> button on the bottom-right corner and
+          paste it down below.
+        </p>
+        <img src="./images/9-3-2.png" style="max-width: 600px" />
+
+        <textarea id="page-9-spotify-raw" rows="1"></textarea>
+        <button class="btn small" onclick="generate_spotify_url()">
+          Generate Spotify Embed URL
+        </button>
+        <textarea id="page-9-spotify-edited" rows="1" readonly></textarea>
+        <p>
+          If the embedded episode down below loads, then the generated URL is
+          working. You may now paste the generated URL into the
+          <i>embed_url</i> column.
+        </p>
+        <iframe id="page-9-spotify-preview" src="" frameborder="0"></iframe>
+      </div>
+
+      <div id="content-page-10">
+        <h2>Step 5: Double-check each column</h2>
+
+        <p>
+          Please double check each column on the Multimedia database sheet to
+          make sure that there are no missing or incorrect information.
+        </p>
+      </div>
+
+      <div id="content-page-11">
+        <h2>Step 6: Update the website</h2>
+
+        <p>Click on the link below to update the website.</p>
+
+        <a
+          href="https://theguidon.com/1112/main/wp-json/wp/v2/update-multimedia"
+          target="_blank"
+          class="anchor-btn"
+        >
+          <button>
+            Update the website
+            <img src="./images/external.svg" />
+          </button>
+        </a>
+
+        <p>
+          After letting the website load, you may see something similar to this:
+        </p>
+        <img src="./images/11-0.png" />
+        <p>
+          You may now open the main website to see the newly added post unless
+          if it mentions warning and errors. In that case, please recheck the
+          Multimedia database once again and/or contact the Digital Development
+          Editors.
+        </p>
+      </div>
+    </main>
+
+    <div class="button-container">
+      <a id="prev-btn" href="#"
+        ><button class="btn transparent">Back</button></a
+      >
+      <a id="next-btn" href="#content-page-2"
+        ><button class="btn">Next</button>
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; The GUIDON Digital Development 2022</p>
+    </footer>
+
+    <script>
+      setup();
+    </script>
+  </body>
+</html>
